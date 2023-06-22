@@ -17,7 +17,7 @@ const searchFieldMarginBottom = '24px';
 const dataTextSize = 'smallPlus';
 const defaultTextColor = '#000';
 const defaultShimmerDuration = 0;
-const headerBackgroundColor = 'neutralLighterAlt';
+const headerBackgroundColor = 'white';
 const linkTarget = '_UXPin Mockup';
 
 const emptyHeaderText1 = '----';
@@ -575,7 +575,7 @@ class DetailsList extends React.Component {
               {...this.props}
               columns={this.state.columns}
               items={this.state.rows}
-              selectionMode={SelectionMode.none}
+              selectionMode={SelectionMode.multiple}
               constrainMode={ConstrainMode[ConstrainMode.horizontalConstrained]}
               // onRenderRow={(props, defaultRender) => (
               //   <>
