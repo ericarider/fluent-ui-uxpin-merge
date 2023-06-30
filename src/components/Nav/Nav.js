@@ -14,8 +14,8 @@ icon(StackedColumnChart2Fill) Metrics`;
 
 const defaultTopPadding = 24;
 
-const defaultStyledBgColor = '#F5F7FA';
-const defaultStyledBorderColor = '#CBD2D6';
+const defaultStyledBgColor = '#E4E0DD';
+const defaultStyledBorderColor = '#808097';
 
 class Nav extends React.Component {
   constructor(props) {

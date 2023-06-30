@@ -75,6 +75,7 @@ class Modal extends React.Component {
             verticalAlign: 'middle',
             background: '#003087',
             borderRadius: 10,
+            padding: 12,
           }}
         >
           <br />
@@ -93,6 +94,7 @@ class Modal extends React.Component {
           onDismiss={() => {
             this._onDismissClicked();
           }}
+          className={'merge-component'}
         >
           {/* Modal Display Area */}
           <Stack horizontalAlign={'stretch'}>

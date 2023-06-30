@@ -169,6 +169,7 @@ class Dialog extends React.Component {
           onDismiss={() => {
             this._onDismissClicked();
           }}
+          className={'merge-component'}
         >
           {this.props.children && (
             <Stack

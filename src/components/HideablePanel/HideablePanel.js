@@ -12,8 +12,8 @@ const centerAlign = 'center';
 const rightAlign = 'right';
 const stretchAlign = 'stretch';
 
-const instructionText = `Hideable Layer: 
-1) Like a Vertical Stack, add child objects. 
+const instructionText = `Hideable Layer:
+1) Like a Vertical Stack, add child objects.
 2) In the Props Panel or at runtime, show/hide this Hideable Layer.`;
 
 //Use this color if the UXPin user doesn't enter a valid hex or color token.

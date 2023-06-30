@@ -3,7 +3,7 @@ import * as PropTypes from 'prop-types';
 import { PrimaryButton as PrimaryButtonM, DefaultButton as DefaultButtonM } from '@fluentui/react/lib/Button';
 import { TooltipHost } from '@fluentui/react/lib/Tooltip';
 
-const defaultText = 'Button';
+const defaultText = 'My Button';
 const defaultIcon = '';
 const posStart = 'start';
 const posEnd = 'end';
